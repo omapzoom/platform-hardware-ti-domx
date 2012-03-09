@@ -237,7 +237,7 @@ typedef enum OMX_TI_INDEXTYPE {
     OMX_TI_IndexParamTimeStampInDecodeOrder,            /**< 0x7F00008E reference: OMX_TI_PARAM_TIMESTAMP_IN_DECODE_ORDER */
     OMX_TI_IndexParamVideoAutoFrameRateUpdate,          /**< 0x7F00008F reference: OMX_TI_VIDEO_PARAM_AUTO_FRAMERATE_UPDATE */
     OMX_TI_IndexParamBayerCompression,                  /**< 0x7F000090 reference: OMX_TI_PARAM_BAYERCOMPRESSION */
-
+    OMX_TI_IndexParamSkipGreyOutputFrames,              /**< 0x7F000091 reference: OMX_TI_PARAM_SKIP_GREY_OUTPUT_FRAMES */
 
     OMX_TI_IndexConfigStreamInterlaceFormats = ((OMX_INDEXTYPE)OMX_IndexVendorStartUnused + 0x100) /**< 0x7F000100 reference: OMX_STREAMINTERLACEFORMATTYPE */
 } OMX_TI_INDEXTYPE;
